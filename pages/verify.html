@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Fun with Triangles</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Fun with Triangles</h1>
+        <ul class="links">
+            <li><a href="/" >Quiz</a></li>
+            <li><a href="/pages/area.html" >Area</a></li>
+            <li><a href="/pages/hypotenuse.html">Hypotenuse</a></li>
+            <li><a href="/pages/verify.html" class="active">isTriangle?</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <h2>Let's check if it is a triangle?</h2>
+        <div class="input-field">
+
+            <label for="angle-one">Enter Angle 1</label>
+            <input type="text" id="angle-one"/>
+
+            <label for="angle-two">Enter Angle 2</label>
+            <input type="text" id="angle-two"/>
+
+            <label for="angle-three">Enter Angle 3</label>
+            <input type="text" id="angle-three"/>
+
+        </div>
+        <button id="check">Let's Check</button>
+        <div class="result"></div>
+    </main>
+
+    <script src="/js/verify.js"></script>
+</body>
+</html>
